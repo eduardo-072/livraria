@@ -10,36 +10,36 @@
     <link rel="stylesheet" href="cadastro.css">
  
 <body>
-<div class="caixa"><br>
-  <h1></h1><br>
-<h1><Strong>Cadastro</Strong></h1>
-<div>
-  <h1></h1><br>
-  <h1></h1><br>
-  <label for="login"><strong>Nome</strong></label><br>
-  <h1></h1>
-  <input  placeholder="Insira seu Email">
-</div><br>
 
+<div class="caixa" class="container-form text-center">
+  <div class="flex">
+      <form  action="insert_user.php" method="post">
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><strong>Nome</strong></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" name="nome">
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><strong>Setor</strong></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" name="setor">
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><strong>Login</strong></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" name="login">
+          </div>
 
-<div>
-  <label for="login"><strong>Email</strong><br>
-    <h1></h1>
-  <input  placeholder="Insira seu Email">
-</div><br>
+          <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"><strong>Senha<strong></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="senha">
+          </div>
 
-<div>
-  <label for="login"><strong>Senha</strong></label><br>
-  <h1></h1>
-  <input  placeholder="Insira seu Email">
-</div><br>
-
-<div>
-  <label for="login"><strong>Digite novamente</strong></label><br>
-  <h1></h1>
-  <input  placeholder="Insira seu Email">
+          <div class="botao">
+              <button type="submit" class="btn btn-primary"><strong>Cadastrar</strong></button>
+              <a class="btn-primary" href="index.html" role="button">Fazer Login</a>
+          </div>
+      </form>
+  </div>
 </div>
- 
+</div> 
 </body>
  
 </html>

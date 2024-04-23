@@ -3,7 +3,6 @@ body
     background-color: #4562E6;
 }
 
-
 .formatar
 {
     margin-top: 70%;
@@ -18,4 +17,10 @@ img
 {
     height: 200px;
     width: 270px;
+}
+.botão
+{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: white;
 }

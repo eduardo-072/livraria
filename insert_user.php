@@ -10,7 +10,7 @@ include 'conexão.php';
 
 $insert = "INSERT INTO tb_user VALUES (NULL, '$nome','$setor','$login','$senha')";
 
-$query = mysqli_query($conexão, $insert);
+$query = mysqli_query($conexao, $insert);
 
 echo 'inserido com sucesso'
 ?>

@@ -14,17 +14,27 @@ body
     left: 700px;
     top: 200px;
     text-align: center;
-    background-color: #010FE6;
-      width: 500px;
-      height: 600px;
-      border-radius: 20px;
-
+    background-color: #2634ee;
+    width: 500px; 
+    height: 600px;
+    border-radius: 20px;
+    
 }
 
 input
 {
-    border-radius: 10px;
-    margin-left: 15px;
-   height: 30px;
-   width: 350px;
+  border-radius: 10px;
+  margin-left: 15px;
+  height: 30px;
+  width: 350px;
+}
+
+label
+{
+    color: white;
+}
+
+h1
+{
+    color: white;
 }
