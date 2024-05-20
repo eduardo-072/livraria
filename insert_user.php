@@ -6,7 +6,7 @@ $setor = $_POST['setor'];
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 
-include 'conexão.php';
+include 'conexao.php';
 
 $insert = "INSERT INTO tb_user VALUES (NULL, '$nome','$setor','$login','$senha')";
 
