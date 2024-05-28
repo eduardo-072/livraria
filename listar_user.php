@@ -30,6 +30,10 @@
         <td> <?php echo $result['nm_usuario']; ?> </td>
         <td> <?php echo $result['nm_setor']; ?> </td>
         <td> <?php echo $result['login']; ?> </td>
+        <td>
+          <a href="edit_user.php?cod=<?php echo $result['id_user']; ?>"><i class="icon fa-solid fa-user-pen"></i></a>
+          <a href=""><i class="icon2 fa-solid fa-solid fa-trash"></i></a>
+        </td> 
       </tr>
   <?php } ?>
     </tbody>
