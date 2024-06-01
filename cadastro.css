@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color: #3d59d6;
+    background-color: #3854d1;
 
 }
 .caixa
@@ -16,9 +16,9 @@ body
     top: 200px;
     text-align: center;
     align-items: center;
-    background-color: #2634ee;
+    background-color: #4ea0ec;
     width: 500px; 
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
     
 }
@@ -48,39 +48,34 @@ body
     left: 50px;
     border: rgb(0, 0, 0);
 }
-.botão-de-cadastro
-{
+.btn-cadastro {
     
-        font-family: Arial;
-        background-color: transparent;
-        width: 200px;
-        height: 30px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        border: 2px solid black;
-        border-radius: 12px;
-        position: absolute;
-        left: 130px;
-        top: 500px;
+    font-family: Arial;
+    background-color: transparent;
+    width: 200px;
+    height: 30px;
+    display: block;
+    border: 2px solid rgb(14, 29, 236);
+    border-radius: 12px;
+    position: absolute;
+    left: 210px;
+    top: 500px;
+
+    color: white;
+
+    height: 50px;
+    width: 100px;
+}
     
-        color: white;
-    
-        height: 50px;
-        width: 100px;
-    }
-    
-    .botão-de-cadastro:hover {
-        background-color: rgb(53, 22, 229);
-        color: black;
+.btn-cadastro:hover {
+    background-color: rgb(14, 29, 236);
+    color: rgb(255, 255, 255);
    }
 
-   .botão
-   {
+.btn-login {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 510px;
-    left: 250px
-    
+    top: 590px;
+    left: 210px;
+    text-decoration: none;
    }

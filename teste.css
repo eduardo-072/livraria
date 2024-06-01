@@ -1,47 +1,8 @@
-body
-{
-    background-color: #4562E6;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-.formatar
-{
-    margin-top: 70%;
-}
-
-.marcação
-{
-    font-size: 30px
-}
-
-img
-{
-    height: 200px;
-    width: 270px;
-}
-.botão
-{
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-}
-
-a {
-    color: aliceblue;
-}
-p {
-    position: absolute;
-    top: 880px;
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .menu-icon {
@@ -71,8 +32,6 @@ body {
     padding: 16px;
     text-decoration: none;
     font-size: 18px;
-    text-align: left;
-    position: relative;
 }
 
 .side-menu a:hover {
