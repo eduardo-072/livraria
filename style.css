@@ -17,19 +17,66 @@ body
     font-size: 30px
 }
 
-img
-{
-    height: 200px;
-    width: 270px;
+#container {
+    position: absolute;
+    left: 820px;
+    top: 200px;
+
 }
-.botão
-{
-    font-family: 'Times New Roman';
+.cx {
+    background-color: #3778da;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    width: 380px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 80px;
+}
+.cx h1 {
+    position: relative;
+    top: 2px;
+    left: 71px;
+}
+ label {
+    position: relative;
+    top: 28px;
+    left: 13px;
     font-size: 20px;
-    color: white;
+    
+}
+input {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    left: 80px;
+    width: 250px;
+    height: 10px;
+} 
+
+.btn-login {
+    position: relative;
+    font-size: 18px;
+    top: 45px;
+    border: 2px solid rgb(3, 3, 3);
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
     text-decoration: none;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    left: 120px;
 }
 
+.btn-login:hover{
+    background-color: rgb(2, 2, 3);
+    color: white;
+}
+img {
+    width: 400px;
+    height: 270px;
+    
+}
 a {
     color: aliceblue;
 }
@@ -37,12 +84,11 @@ p {
     position: absolute;
     top: 880px;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.title {
+    position: relative;
+    top: 60px;
 }
+
 
 .menu-icon {
     position: fixed;
@@ -50,6 +96,7 @@ body {
     left: 20px;
     font-size: 30px;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .side-menu {
@@ -71,8 +118,7 @@ body {
     padding: 16px;
     text-decoration: none;
     font-size: 18px;
-    text-align: left;
-    position: relative;
+    text-align: left; /* Adicionado para alinhar texto à esquerda */
 }
 
 .side-menu a:hover {
