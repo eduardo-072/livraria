@@ -6,7 +6,7 @@
 }
 /* lightblue */
 body {
-    background-color: #1442da;
+    background-color: #1a56d8;
 }
 .menu-icon {
     position: fixed;
@@ -63,8 +63,8 @@ h1 {
     width: 1400px;
     height: 750px;
     position: relative;
-    border: 2px solid black;
-    border-radius: 80px;
+    border: 5px solid black;
+    border-radius: 100px;
     overflow: hidden;
 
 }
@@ -72,7 +72,7 @@ h1 {
 .cx-2 {
     width: 850px;
     height: 750px;
-    background-color: rgb(51, 20, 230);
+    background-color: rgb(25, 153, 212);
     position: absolute; /* Permite a movimentação do quadrado interno */
     top: 50%; /* Centraliza verticalmente */
     right: 700px; /* Inicialmente dentro do contêiner à direita */
@@ -98,7 +98,7 @@ p {
 .cx-1:not(:hover) .cx-2 {
     transform: translate(100%, -50%); /* Move o quadrado de volta para a direita quando o mouse sai do contêiner */
 }
-
+ 
 .mb-3 input {
     position: absolute;
 }
@@ -113,7 +113,7 @@ p {
 #barra-1 label {
     position: absolute;
     top: 19%;
-    left: 68%;
+    left: 70%;
 }
 #barra-1 input {
     padding: 4px;
@@ -137,7 +137,7 @@ p {
 #barra-3 label {
     position: absolute;
     top: 42%;
-    left: 70%;
+    left: 66%;
 }
 
 #barra-3 input {
@@ -148,7 +148,7 @@ p {
 #barra-4 label {
     position: absolute;
     top: 54%;
-    left: 71%;
+    left: 70%;
 }
 #barra-4 input {
     position: absolute;
@@ -160,7 +160,7 @@ p {
 #barra-5 label {
     position: absolute;
     top: 66%;
-    left: 71%;
+    left: 70%;
 }
 #barra-5 input {
     position: absolute;

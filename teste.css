@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-.menu-icon {
+/* .menu-icon {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -46,3 +46,99 @@ body {
 .content h1, .content p {
     margin-left: 20px;
 }
+
+.cx-1 {
+    position: relative;
+    background-color: blue;
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    left: 400px;
+    border-radius: 60px;
+}
+
+.cx-1 .mb-3{
+    position: relative;
+}
+
+.cx-2 {
+    position: absolute;
+    background-color: red;
+    padding: 300px 200px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.mb-3 {
+    top: 50px
+}
+
+.form-labe {
+    position: relative;
+    top: 70px;
+    left: 780px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 2px;
+}
+.form-label-1 {
+    position: absolute;
+    top: 70px;
+    left: 800px;
+    font-size: 20px;
+} 
+
+.form-control  {
+    position: relative;
+    top: 10px;
+    left: 630px;
+    width: 400px;
+    height: 30px;
+    display: block;
+    margin-bottom: 50px; 
+} */
+
+.title {
+    position: absolute;
+    left: 750px;
+}
+
+
+
+
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative; /* Necessário para o posicionamento absoluto do quadrado interno */
+    overflow: hidden; /* Esconde partes do quadrado interno que saem da borda do contêiner */
+  }
+  
+  .inner-square {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: absolute; /* Permite a movimentação do quadrado interno */
+    top: 50%; /* Centraliza verticalmente */
+    left: 100%; /* Inicialmente fora do contêiner à direita */
+    transform: translate(-100%, -50%); /* Ajusta para centralizar verticalmente e colocar fora da direita */
+    transition: transform 2s ease; /* Transição suave para a propriedade 'transform' */
+    display: flex; /* Alinha o texto */
+    align-items: center; /* Centraliza verticalmente o conteúdo do texto */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do texto */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+    color: white; /* Cor do texto */
+  }
+  
+  .container:hover .inner-square {
+    transform: translate(-50%, -50%); /* Move o quadrado para o centro do contêiner */
+  }
+  
+  .container:not(:hover) .inner-square {
+    transform: translate(-100%, -50%); /* Move o quadrado para fora da direita quando o mouse sai do contêiner */
+  }
+  
+
+  
