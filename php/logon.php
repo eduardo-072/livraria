@@ -20,7 +20,9 @@ $senha_banco = $result['senha'];
 
 if ($nome == $nome_banco && $senha == $senha_banco)
 {
-    header('location: C_cliente.html');
+    session_start();
+    $_SESSION['username'] = $name_banco && $senha == $senha_banco
+    header('location: C_cliente.php');
 
 }
 else

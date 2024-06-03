@@ -103,12 +103,21 @@
           <p>Welcom to the Jungle</p>
         </div>
       </div> 
+      <?php 
+        session_start();
+        if (isset($_SESSION['username'])) {
+          $username = $_SESSION['username']
+        }
+
+        else {
+          
+        }
+      ?>
       
       </div> 
     </div>
   </div>
 <div class="col">
-        
       </div>
   </div>
   <script src="/index/main.js"></script>
