@@ -6,7 +6,7 @@
 }
 /* lightblue */
 body {
-    background-color: #1a56d8;
+    background-color: #1656e0;
 }
 .menu-icon {
     position: fixed;
@@ -59,7 +59,7 @@ h1 {
 }
 .cx-1 {
     color: white; /* Cor do texto */
-    background-color: rgb(107, 103, 103);
+    background-color: #656668;
     width: 1400px;
     height: 750px;
     position: relative;
@@ -72,18 +72,18 @@ h1 {
 .cx-2 {
     width: 850px;
     height: 750px;
-    background-color: rgb(25, 153, 212);
+    background-color: #0376f0;
     position: absolute; /* Permite a movimentação do quadrado interno */
     top: 50%; /* Centraliza verticalmente */
     right: 700px; /* Inicialmente dentro do contêiner à direita */
     transform: translate(100%, -50%); /* Ajusta para posicionar fora da direita e centralizar verticalmente */
-    transition: transform 2s ease; /* Transição suave para a propriedade 'transform' */
+    transition: transform 1s ease; /* Transição suave mais suave */
     display: flex; /* Alinha o texto */
     align-items: center; /* Centraliza verticalmente o conteúdo do texto */
     justify-content: center; /* Centraliza horizontalmente o conteúdo do texto */
     padding: 10px; /* Espaçamento interno */
     box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
-    color: white; /* Cor do texto */
+    color: white;
 }
 p {
     position: relative;
@@ -180,8 +180,22 @@ p {
     left: 700px;
     overflow: hidden;
 }
-.btn-cadastro {
+
+#button {
     position: absolute;
-    top: 88%;
-    left: 70%;
+    font-size: 18px;
+    top: 300px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    top: 670px;
+    left: 880px;
+    margin-right: 40px;
+}
+#button:hover{
+    background-color: #000000;
+    color: white;
 }

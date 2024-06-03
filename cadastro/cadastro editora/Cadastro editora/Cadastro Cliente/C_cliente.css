@@ -6,7 +6,7 @@
 }
 /* lightblue */
 body {
-    background-color: #1442da;
+    background-color: #fff;
 }
 .menu-icon {
     position: fixed;
@@ -42,7 +42,7 @@ h1 {
     padding: 16px;
     text-decoration: none;
     font-size: 18px;
-    text-align: left; /* Adicionado para alinhar texto à esquerda */
+    text-align: left; 
 }
 
 .side-menu a:hover {
@@ -58,12 +58,11 @@ h1 {
     margin-left: 20px;
 }
 .cx-1 {
-    color: white; /* Cor do texto */
-    background-color: rgb(107, 103, 103);
+    color: whitesmoke; /* Cor do texto */
+    background-color: #a3a3a3;
     width: 1400px;
     height: 750px;
     position: relative;
-    border: 2px solid black;
     border-radius: 80px;
     overflow: hidden;
 
@@ -72,18 +71,18 @@ h1 {
 .cx-2 {
     width: 850px;
     height: 750px;
-    background-color: rgb(51, 20, 230);
+    background-color: rgb(110, 204, 238);
     position: absolute; /* Permite a movimentação do quadrado interno */
     top: 50%; /* Centraliza verticalmente */
     right: 700px; /* Inicialmente dentro do contêiner à direita */
-    transform: translate(100%, -50%); /* Ajusta para posicionar fora da direita e centralizar verticalmente */
-    transition: transform 2s ease; /* Transição suave para a propriedade 'transform' */
-    display: flex; /* Alinha o texto */
-    align-items: center; /* Centraliza verticalmente o conteúdo do texto */
+    transform: translate(100%, -50%); /*Ajusta para posicionar fora da direita e centralizar verticalmente */
+    transition: transform 0.70s ease; /* Transição suave mais suave */
+    display: flex;
+    align-items: center;
     justify-content: center; /* Centraliza horizontalmente o conteúdo do texto */
-    padding: 10px; /* Espaçamento interno */
+    padding: 10px;
     box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
-    color: white; /* Cor do texto */
+    color: white;
 }
 p {
     position: relative;
