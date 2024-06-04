@@ -8,6 +8,7 @@
 body {
     background-color: #fff;
 }
+
 .menu-icon {
     position: fixed;
     top: 20px;
@@ -15,12 +16,6 @@ body {
     font-size: 30px;
     cursor: pointer;
     z-index: 1000;
-}
-h1 {
-    position: relative;
-    top: 30px;
-    left: 280px;
-    font-size: 50px;
 }
 
 .side-menu {
@@ -42,21 +37,14 @@ h1 {
     padding: 16px;
     text-decoration: none;
     font-size: 18px;
-    text-align: left; 
+    text-align: left; /* Adicionado para alinhar texto à esquerda */
 }
 
 .side-menu a:hover {
     background-color: #575757;
 }
 
-.content {
-    padding: 20px;
-    transition: margin-left 0.3s;
-}
 
-.content h1, .content p {
-    margin-left: 20px;
-}
 .cx-1 {
     color: whitesmoke; /* Cor do texto */
     background-color: #a3a3a3;

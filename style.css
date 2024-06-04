@@ -83,7 +83,7 @@ input:hover {
     font-size: 18px;
     top: 300px;
     border: 2px solid rgb(25, 212, 203);
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     text-decoration: none;
     background-color: transparent;
@@ -172,13 +172,4 @@ img {
 
 .side-menu a:hover {
     background-color: #575757;
-}
-
-.content {
-    padding: 20px;
-    transition: margin-left 0.3s;
-}
-
-.content h1, .content p {
-    margin-left: 20px;
 }
