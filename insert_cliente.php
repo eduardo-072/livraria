@@ -1,6 +1,5 @@
 <?php
 //Recebendo dados do formulario
-
 $nome = $_POST['nm_cliente'];
 $endereco = $_POST['nm_endereco'];
 $numero = $_POST['nr_endereco'];
@@ -10,7 +9,6 @@ $telefone = $_POST['nr_telefone'];
 
 
 //Inserindo dados no banco
-
 include 'conexao.php';
 
 //Dados para inserir os dados
