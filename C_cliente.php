@@ -14,10 +14,10 @@
 <body>
   <nav>
     <div class="menu-icon" id="menuIcon">
-      <i class="fas fa-bars"></i>  <!-- Ícone de hambúrguer do Font Awesome -->
-  </div>
+      <i class="fas fa-bars"></i> <!-- Ícone de hambúrguer do Font Awesome -->
+  </div> 
   <div class="side-menu" id="sideMenu">
-
+    
       <a href="C_cliente.html">
         <i class="fa-solid fa-user"></i>
         <span class="iten-ds">
@@ -69,7 +69,6 @@
         
        
       <div class="cx-1">
-        
         <h1><strong>Cadastre-se</strong></h1>
         
         <form class="cx" action="insert_cliente.php" method="post">
@@ -112,14 +111,16 @@
 <div class="col">
       </div>
   </div>
-  <script src="/index/main.js"></script>
-  /* <?php 
+  <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- /* <?php 
   session_start();
   if (isset($_SESSION['username'])) {
     $username = $_SESSION['username'];
     echo "$username diz olá:)";
      }
-?> 
+?>  -->
 </body>
 </html>
 <!-- 
@@ -194,4 +195,3 @@
 
   
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

@@ -45,6 +45,7 @@ body {
 }
 
 
+
 .cx-1 {
     color: whitesmoke; /* Cor do texto */
     background-color: #a3a3a3;
@@ -78,6 +79,14 @@ p {
     font-size: 40px;
     justify-content: center;
 }
+
+h1 {
+    position: relative;
+    top: 40px;
+    left: 300px;
+    font-size: 60px;
+}
+
 .cx-1:hover .cx-2{
     transform: translate(0, -50%); /* Move o quadrado para a esquerda dentro do contêiner */
 }

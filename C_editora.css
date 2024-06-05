@@ -6,7 +6,7 @@
 }
 /* lightblue */
 body {
-    background-color: #1656e0;
+    background-color: #9ecfe2;
 }
 .menu-icon {
     position: fixed;
@@ -49,22 +49,14 @@ h1 {
     background-color: #575757;
 }
 
-.content {
-    padding: 20px;
-    transition: margin-left 0.3s;
-}
-
-.content h1, .content p {
-    margin-left: 20px;
-}
 .cx-1 {
-    color: white; /* Cor do texto */
-    background-color: #656668;
+    color: black; /* Cor do texto */
+    background-color: #fff;
     width: 1400px;
     height: 750px;
     position: relative;
-    border: 5px solid black;
-    border-radius: 100px;
+    border: 5px ;
+    border-radius: 30px;
     overflow: hidden;
 
 }
@@ -72,7 +64,7 @@ h1 {
 .cx-2 {
     width: 850px;
     height: 750px;
-    background-color: #0376f0;
+    background-color: #87b0db;
     position: absolute; /* Permite a movimentação do quadrado interno */
     top: 50%; /* Centraliza verticalmente */
     right: 700px; /* Inicialmente dentro do contêiner à direita */
@@ -91,6 +83,7 @@ p {
     font-size: 40px;
     justify-content: center;
 }
+
 .cx-1:hover .cx-2{
     transform: translate(0, -50%); /* Move o quadrado para a esquerda dentro do contêiner */
 }
