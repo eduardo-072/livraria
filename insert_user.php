@@ -1,16 +1,31 @@
 <?php
-//recebendo dados do formulário
-
 $nome = $_POST['nome'];
-$setor = $_POST['setor'];
 $login = $_POST['login'];
-$senha = $_POST['senha'];
-
+$setor = $_POST['setor'];
+$senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
+ 
 include 'conexao.php';
-
-$insert = "INSERT INTO tb_user VALUES (NULL, '$nome','$setor','$login','$senha')";
-
+ 
+$select = "SELECT * from tb_user WHERE login = '$login'";
+$query = mysqli_query($conexao,$select);
+ 
+$result = mysqli_fetch_array($query); 
+ 
+if (empty($nome) || empty($login) || empty($setor) || empty($senha)) {
+    echo("<script> alert('Preencha todos os campos!'); history.back()</script>");
+    exit;
+}
+ 
+$login_banco = $result['login'];
+ 
+if ($login == $login_banco) {
+    echo("<script> alert('Email já cadastrado!'); history.back()</script>");
+    exit;
+}
+ 
+include 'conexao.php';
+ 
+$insert = "INSERT INTO tb_user VALUES (NULL,'$nome','$login','$setor','$senha')";
+ 
 $query = mysqli_query($conexao, $insert);
-
-echo 'inserido com sucesso'
 ?>

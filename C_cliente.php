@@ -16,7 +16,6 @@
   session_start();
   if (isset($_SESSION['username'])) {
     $username = $_SESSION['username'];
-    echo "$username diz olá:)";
      }
 ?> 
   <nav>
@@ -124,75 +123,3 @@
    
 </body>
 </html>
-
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="fa-solid fa-book-open-reader"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="C_cliente.html">Cadastrar Cliente</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="C_editora.html">Cadastrar Editora</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="listar_cliente.php">Relatorio Clientes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="listar_editora.php">Relatorio Editoras</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="listar_user.php">Relatorio Usuarios</a>
-        </li>
-     </ul>
-    </div>
-  </div>
-</nav>
-  <div class="container text-center">
-      <div class="row">
-          <div class="col"></div>
-        <div class="col">
-          <form class="user" action="insert_cliente.php" method="post">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nome do Cliente</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" name="nm_cliente" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" name="nm_endereco" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Numero</label>
-                  <input type="number" class="form-control" id="exampleInputEmail1" name="nr_endereco" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">CPF</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" name="nr_cpf" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">CNJP</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" name="nr_cnpj" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Telefone</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" name="nr_telefone" aria-describedby="emailHelp">
-                </div>
-              <div class="botao">
-                  <button type="submit" class="btn btn-primary">Cadastrar</button>
-              </div>
-                                                                
-          </form>
-        </div>
-        <div class="col">
-     
-        </div>
-      </div>
-    </div> -->
-
-  
-

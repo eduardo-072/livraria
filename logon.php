@@ -20,7 +20,6 @@ $senha_banco =  $result['senha'];
 
 //Comparanção para acessar o sistema
 if ($nome == $name_banco  &&  $senha == $senha_banco) {
-   
     session_start();
     $_SESSION['username'] = $name_banco;
     header('location: C_cliente.php');
